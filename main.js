@@ -4,3 +4,7 @@ console.log("Stuart");
 console.log("(1542)");
 console.log("Test!");
 console.log("Marry " + "Stuart "+"(1542)");
+
+var height;
+console.log(height);
+console.log(weight);
