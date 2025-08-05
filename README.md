@@ -1,2 +1,2 @@
-JavaScript Essentials 1
+JavaScript Essentials 1/n
 JS Institute 
