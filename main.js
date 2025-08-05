@@ -1,10 +1,7 @@
-console.log("Mary Stuart (1542)");
-console.log("Mary");
-console.log("Stuart");
-console.log("(1542)");
-console.log("Test!");
-console.log("Marry " + "Stuart "+"(1542)");
-
-var height;
-console.log(height);
-console.log(weight);
+let counter;
+{
+    counter = 1;
+    console.log(counter); // -> 1
+}
+counter = counter + 1;
+console.log(counter); // -> 2
