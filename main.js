@@ -1,7 +1,14 @@
-let counter;
-{
-    counter = 1;
-    console.log(counter); // -> 1
+var  globalGreeting  =  "Good  ";
+   
+function  testFunction()  {
+         var  localGreeting  =  "Morning  ";    
+         console.log("function:");
+         console.log(globalGreeting);
+         console.log(localGreeting);
 }
-counter = counter + 1;
-console.log(counter); // -> 2
+   
+testFunction();
+   
+console.log("main  program:");
+console.log(globalGreeting);
+console.log(localGreeting);  //  ->  Uncaught  ReferenceError:  localGreeting  is  not  defined
