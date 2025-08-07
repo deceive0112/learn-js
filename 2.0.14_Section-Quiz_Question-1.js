@@ -15,7 +15,6 @@ console.log("Tulip - unit Price:", tulipUnitPrice, ", quantity:", tulip, ", valu
 console.log("Total:", x + y + z);
 
 /* 
-Question:
 Question 1: Let's play florist. Declare six variables, remembering to name them according to their purpose:
 *the price of a single rose (8) and the number of roses you have (70)
 *the price of a single lily (10) and the number of lilies you have (50)
@@ -25,6 +24,7 @@ in which you place their total price. Insert the corresponding values into the v
 using the variables declared in the previous step. Finally, declare a variable in which 
 you store the price of all your flowers (again, use the previous variables for initialization). 
 Display all inventory information in the console in the following form:
+
 
 *Correct Answer which is more readable, maintainable, and scalable.*
 let rosePrice = 8;
