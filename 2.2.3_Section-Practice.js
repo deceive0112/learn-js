@@ -52,7 +52,7 @@ let books = [{
         pages: 352
     }
 ];
-
+// -> Question 4
 let newBook = {
     title: "Learning JavaScript Design Patterns",
     author: "Addy Osmani",
@@ -64,20 +64,18 @@ console.log(books[0].title);
 console.log(books[1].title);
 console.log(books[2].title);
 console.log(books[3].title);
-
+// -> Question 5
 let lastTwoBooks = books.slice(-2);
 console.log(lastTwoBooks);
-
-books.shift(); // Remove the first book
+// -> Question 6
+books.shift(); 
 console.log(books.length);
 console.log((books[0].title));
 console.log((books[1].title));
 console.log((books[2].title));
-
+// -> Question 7
 let sum = books[0].pages + books[1].pages + books[2].pages;
 console.log(`Total pages: ${sum}`);
-
-console.log("-------------------------------------------------");
 
 /*
 Question 3: We are setting up our small library of books about JavaScript programming. 
