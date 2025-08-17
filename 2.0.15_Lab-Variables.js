@@ -12,10 +12,3 @@ let name3Email = "libbero@convallis.edu";
 
 console.log(name1, "/", name1Phone, "/", name1Email);
 console.log(name3, "/", name3Phone, "/", name3Email);
-
-let path = "C:\\" + "Windows";
-console.log(path); // -> C:\Windows
-   
-let test = "100" + "10";
-console.log(test); // -> 10010
-console.log(typeof test); // -> string
