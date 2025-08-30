@@ -1,5 +1,10 @@
 // 3.0.7 Logical operators
-/* 
+/*
+In JavaScript, the order is:
+1. ! (NOT) → highest
+2. && (AND) → middle
+3. || (OR) → lowest
+
 a conjunction, i.e. logical AND (&& symbol)
 an alternative, i.e. logical OR (symbol ||)
 a negation, i.e. logical NOT (symbol !)
